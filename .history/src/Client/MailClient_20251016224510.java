@@ -7,7 +7,7 @@ import java.awt.event.*;
 import java.net.*;
 
 public class MailClient extends JFrame {
-    private static final String SERVER_IP = "192.168.56.1";
+    private static final String SERVER_IP = "127.0.0.1";
     private static final int SERVER_PORT = 1233;
     private DatagramSocket socket;
 
